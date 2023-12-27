@@ -1,0 +1,280 @@
+# Page settings
+
+baseurl = "https://pixitha.org/"
+languageCode = "en-us"
+title = "Kyle Duren's Resume"
+theme = "hugo-orbit-theme"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = false
+disable404 = false
+
+[params]
+
+# Meta
+    description = "Resume/CV"
+    author = "Kyle Duren"
+
+# Theme styles
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Kyle Duren"
+        tagline = "Network/Security Engineer"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: kyle@pixitha.com"
+        title = "kyle (at) pixitha.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+15093077324"
+        title = "+15093077324"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "https://pixitha.org"
+        title = "pixitha.org"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-brands fa-linkedin"
+        url = "https://www.linkedin.com/in/pixitha/"
+        title = "linkedin.com/in/pixitha/"
+
+        [[params.contact.list]]
+        class = "mastodon"
+        icon = "fa-brands fa-mastodon"
+        url = "https://mastodon.sdf.org/@pixitha"
+        title = "@pixitha"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-brands fa-github"
+        url = "https://github.com/pixitha"
+        title = "github.com/pixitha"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-brands fa-twitter"
+        url = "https://twitter.com/pixitha"
+        title = "@pixitha"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BS in Network Desgin and Adminstration"
+        college = "Western Governors University"
+        dates = "2014 - 2017"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Portuguese"
+        level = "Beginner"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Photography"
+
+        [[params.interests.list]]
+        interest = "Plane Spotting"
+
+        [[params.interests.list]]
+        interest = "Traveling"
+
+        [[params.interests.list]]
+        interest = "Electronics Tinkering"
+
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Jack of all trades when it comes to the IT and Networking world. Specialties: In depth expertise of various LAN/WAN protocols including OSPF, BGP, IPv6. Advanced knowledge of troubleshooting with routing and switching. Routers and Switching (Cisco, Juniper); Servers & Workstations (Win/OSX); Linux (CentOS, Debian, Ubuntu); Experience with SONET/TDM/Cisco15454/Fujitsu Flashwave/Ciena/Infinera/MRV/BTI."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Edge Security Architect"
+        dates = "2018 - Present"
+        company = "Yahoo!"
+        location = "Reston, VA"
+	    details = """
+  Responsibilities include:
+  
+  * Analysing
+  * Modelling
+  * Deploying
+  * Securing
+  """
+
+        [[params.jobs.list]]
+        position = "Senior Network Engineer"
+        dates = "2012 - 2018"
+        company = "Verizon Media/Oath/Yahoo/Aol/Edgecast"
+	    location = "Los Angeles, CA & London, UK"
+        details = """
+  * Implement, configure, support and maintain all aspects of the EdgeCast network infrastructure. Consisting mostly of Juniper MX routers and QFX switches.
+  * Point of contact designated to work with the security team on all network security issues.
+  * Own the scoping, architecture and design of new network infrastructure.
+  * Design/build/deploy xWDM systems in metro regions.
+  * Continually support our internal infrastructure, streaming services, corporate network and NOC.
+  * Work closely with the EdgeCast NOC on monitoring all servers, applications, network devices and connections along with customer traffic, using specific custom built tools.
+  * Serve as the Tier III response for all escalated network issues and customer complaints. 
+  * Evaluate new hardware as needed and maintain existing inventory.
+  * Create and define network requirements for new products, including technical documentation for all relevant processes and technologies.
+  * Screen and interview all potential candidates for our team.
+ 	 """
+
+        [[params.jobs.list]]
+        position = "MPLS Network Enginer"
+        dates = "2011 - 2012"
+        company = "Integra Telecom/Electric Lightwave"
+	    location = "Portland, OR"
+        details = """
+  * Designed and implemented layer 3 private MPLS VPN services on Cisco 7600/ASR9000 routers and Adtran CPEs.
+  * Designed and implemented layer 2 private MPLS VPN services on Cisco ME3400/ME3600 switches.
+  * Provisioned and supported customers on Infinera/Ciena DWDM systems.
+  * Worked with wholesale customers to troubleshoot SONET/Ethernet circuits.
+  * Provisioned and turned up customers on Cisco 15454, Whiterock, Turin and Fujitsu Transport gear.
+  * Provisioned and turned up customers on Metaswitch, class 5 voice switches.
+  * Built and configured Accedian based MEF certified Ethernet networks (EPL, EVLP, E-Tree).
+  * Experience with designing circuits within Oracle MetaSolv Solution and ordering circuits with various LECs and IXCs. See less
+	"""
+
+        [[params.jobs.list]]
+        position = "Network Administrator"
+        dates = "2008 - 2011"
+        company = "Noel Communications"
+	    location = "Yakima, WA"
+        details = """
+  * Managed the IP network, layer 2 switching and routing. Including troubleshooting and turning up new customers.
+  * Managed the BGP peering with customers, providers and Seattle Internet Exchange members.
+  * Maintained and created the fiber route maps for our owned/leased fiber assets.
+  * Provisioned customers on Cisco 15454 based SONET network.
+  * Acted as the first point of contact for computer support for co-workers.
+  * Managed all servers, including telemetry/management and public web servers
+	"""
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects and Certifications"
+        intro = "Various projects and certifications that I have and other miscellaneous things"
+
+        [[params.projects.list]]
+        title = "SANS/GIAC Public Cloud Security (GPCS)"
+        url = "https://www.credly.com/badges/d9bb0f61-73d9-4886-993e-4fb21088ab4a"
+        tagline = "Passed on Nov 2022"
+
+        [[params.projects.list]]
+        title = "SANS/GIAC Defensible Security Architecture (GDSA)"
+        url = "https://www.youracclaim.com/badges/d08e6f5f-f2cb-48ba-922d-dc8c368f8612/linked_in_profile"
+        tagline = "Passed on Feb 2020"
+
+        [[params.projects.list]]
+        title = "Project+"
+        url = "https://www.youracclaim.com/badges/59949b19-1613-4adf-ac61-b1af5988593f"
+        tagline = "Passed on April 20th 2015"
+
+        [[params.projects.list]]
+        title = "Certified Ethical Hacker"
+        url = "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
+        tagline = "Passed on June 21st 2011"
+
+        [[params.projects.list]]
+        title = "Network+"
+        url = "https://www.youracclaim.com/badges/9d5829e3-d125-4a97-b19c-4ded5d61d280"
+	    tagline = "Passed on November 8th 2010"
+
+        [[params.projects.list]]
+        title = "Security+"
+        url = "https://www.youracclaim.com/badges/7f33536f-1d14-451f-b959-aa93e1c3f991"
+        tagline = "Passed on December 6th 2010"
+
+        [[params.projects.list]]
+        title = "Engineers Without Borders: Olancho Aid"
+        url = "https://olanchoaid.org/"
+        tagline = "Helped to build and deploy a wireless network to connect the schools within Juticalpa, Honduras to extend the internet as a teaching tool"
+        
+        [[params.projects.list]]
+	    title = "US Patent: Application Controlled Path Selection Over Different Transit Providers"
+        url = "http://patft1.uspto.gov/netacgi/nph-Parser?patentnumber=10033628"
+       	tagline = "The ability to control the flow of traffic between two data-centers across the internet using IPv6 announced selectively across multiple transit providers."
+       
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Routing Protocols (BGP, OSPF)"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Juniper Device (JunOS)"
+        level = "90%"
+                
+        [[params.skills.list]]
+        skill = "DWDM/CWDM/Photonic Networking"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Linux OS (Ubuntu, Centos, Redhat)"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Programming: Python"
+        level = "30%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Kyle Duren"
