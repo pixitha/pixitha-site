@@ -237,7 +237,7 @@ disable404 = false
         
         [[params.projects.list]]
 	    title = "US Patent: Application Controlled Path Selection Over Different Transit Providers"
-        url = "http://patft1.uspto.gov/netacgi/nph-Parser?patentnumber=10033628"
+        url = "https://patents.google.com/patent/US10033628B2/en?oq=10033628"
        	tagline = "The ability to control the flow of traffic between two data-centers across the internet using IPv6 announced selectively across multiple transit providers."
        
 
