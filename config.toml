@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://pixitha.org/"
+baseurl = "https://www.pixitha.org/"
 languageCode = "en-us"
 title = "Kyle Duren's Resume"
 theme = "hugo-orbit-theme"
