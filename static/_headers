@@ -2,4 +2,4 @@ https://:project.pages.dev/*
   X-Robots-Tag: noindex
 
 /*
-  Content-Security-Policy-Report-Only: font-src 'self' fonts.gstatic.com; img-src 'self'; script-src-elem 'self'; style-src-elem 'self' fonts.googleapis.com; report-uri https://pixitha.report-uri.com/r/d/csp/wizard;
+  Content-Security-Policy-Report-Only: font-src 'self' fonts.gstatic.com pixitha.com; img-src 'self' pixitha.com; script-src-elem 'self' pixitha.com; style-src-elem 'self' fonts.googleapis.com pixitha.com; report-uri https://pixitha.report-uri.com/r/d/csp/wizard;
