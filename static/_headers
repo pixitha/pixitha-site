@@ -2,4 +2,7 @@ https://:project.pages.dev/*
   X-Robots-Tag: noindex
 
 /*
-  Content-Security-Policy-Report-Only: font-src 'self' fonts.gstatic.com pixitha.com; img-src 'self' pixitha.com; script-src-elem 'self' pixitha.com; style-src-elem 'self' fonts.googleapis.com pixitha.com; report-uri https://pixitha.report-uri.com/r/d/csp/reportOnly;
+
+Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://pixitha.report-uri.com/a/d/g"}],"include_subdomains":true}
+
+  Content-Security-Policy: font-src 'self' fonts.gstatic.com pixitha.com; img-src 'self' pixitha.com; script-src-elem 'self' pixitha.com; style-src-elem 'self' fonts.googleapis.com pixitha.com; manifest-src 'self'; report-uri https://pixitha.report-uri.com/r/d/csp/enforce; report-to default
